@@ -109,11 +109,35 @@ body {
 }
 
 header,
+footer {
+    background-color: #222;
+    height: 80px;
+    width: 100%;
+}
+
+header {
+    color: #999;
+    font-size: 2em;
+}
+
+main {
+    background-color: #ccc;
+    height: auto;
+    width: 100%;
+    padding: 25px 50px 25px 50px;
+    text-align: center;
+}
+
+header,
 footer,
 main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+li {
+    display: inline-block;
 }
 
 .wrapper {
@@ -131,9 +155,10 @@ main {
   align-items: center;
   color: rgb(213, 244, 252);
   line-height: 1.25em;
-  font-size: 1em;
+  font-size: .95em;
   height: auto;
-  width: 30%;
+  flex: 1 10 30%;
+  padding: 10px;
   border-right: 1px solid #fff;
 }
 
@@ -141,7 +166,10 @@ main {
     border: none;
 }
 
-
+img {
+    height: 20px;
+    width: auto;
+}
 
 
 /* ==========================================================================
